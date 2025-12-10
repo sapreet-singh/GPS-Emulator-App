@@ -9,6 +9,6 @@ import com.example.gpsemulator.ui.theme.GpsEmulatorTheme
 fun GpsEmulatorApp() {
     GpsEmulatorTheme {
         val navController = rememberNavController()
-        AppNavigation(navController = navController)
+        MainNavigation(navController = navController)
     }
 }
